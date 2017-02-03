@@ -6,15 +6,15 @@ $navegador = $_SERVER['HTTP_USER_AGENT']; // função para pegar o navegador do 
 $hora      = date("H:i"); // para pegar a hora com a função date
 
 
-$nome		 = $_POST["nome"];
-$email 		 = $_POST["email"];
+$nome	     = $_POST["nome"];
+$email 	     = $_POST["email"];
 $telefone    = $_POST["telefone"];
 $cidade      = $_POST["cidade"];
 $estado      = $_POST["estado"];
 $mensagem    = $_POST["mensagem"];
 $assunto 	 = "Nome do Site - Contato ";
 
-$message = "<strong>Nome: 		</strong>$nome <br />
+$message = "<strong>Nome:</strong>$nome <br />
 			<strong>Email: 		</strong>$email<br />
 			<strong>Enviado: 	</strong>$data $hora<br />
 			<strong>Telefone: 	</strong>$telefone<br /> 
