@@ -1,4 +1,4 @@
-# Mail Php
+# Mail PHP
 
 
 Ensinando um modelo básico de envio de formulários de contato
