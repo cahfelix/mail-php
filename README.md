@@ -1,15 +1,16 @@
 # Mail PHP
 
 
-Ensinando um modelo básico de envio de formulários de contato
+Apenas um modelo básico de envio de formulários de contato
 
-Referencie o arquivo no action do formufário da seguinte forma
+## Vamos começar
+1 - Referencie o arquivo no action do formufário da seguinte forma
 
 ```
 <form action="mail.php"></form>
 ```
 
-Substitua as informacoes no arquivo php, exemplo
+2 - Substitua as informações no arquivo php, exemplo
 
 ```
 $assunto         = "Nome do Site";
